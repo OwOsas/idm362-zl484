@@ -89,8 +89,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kg-gX-axL">
-                                <rect key="frame" x="119" y="672" width="174.66666666666666" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kg-gX-axL">
+                                <rect key="frame" x="118.99999999999999" y="679" width="174.66666666666663" height="37"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="RETURN">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
@@ -101,12 +101,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.82358980012779714" green="0.94705333388397872" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4kg-gX-axL" secondAttribute="bottom" constant="20" id="6zz-5U-MlL"/>
                             <constraint firstItem="hV7-le-POZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8625" id="ECM-DQ-BON"/>
                             <constraint firstItem="hV7-le-POZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="63" id="Fyp-CR-GD4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4kg-gX-axL" secondAttribute="trailing" constant="119.5" id="VPZ-hC-4zw"/>
+                            <constraint firstItem="4kg-gX-axL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="I7g-7L-iPa"/>
                             <constraint firstItem="hV7-le-POZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YNH-k3-UGV"/>
-                            <constraint firstItem="4kg-gX-axL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="lmu-Sm-5C3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4kg-gX-axL" secondAttribute="bottom" constant="20" id="yUY-JE-cgI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4kg-gX-axL" secondAttribute="trailing" constant="120.33333333333337" id="kXl-8H-vjW"/>
                         </constraints>
                     </view>
                 </viewController>
